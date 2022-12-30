@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login Apple</title>
+        
+        <!-- hoja de estilos de Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        
+        <!-- archivo CSS personalizado -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="Shortcut icon" href="https://cdn.freebiesupply.com/logos/large/2x/apple-logo-png-transparent.png"> 
+</head>
+
+<body  id="black" class="bg-dark">
+
+    <!-- Login-->
+    <section>
+        <div class="row g-0">
+
+            <!-- Carousel-->
+            <div class="col-lg-7 d-none d-lg-block">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div id="img-1" class="carousel-item min-vh-100 active">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-weight: bold;">First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div id="img-2" class="carousel-item min-vh-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-weight: bold;">Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- form-->
+            <div class="col-lg-5 d-flex flex-column align-items-end min-vh-100">
+                <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100 mb-auto">
+                    <img class="img-fluid" src="http://www.clker.com/cliparts/i/s/H/f/4/T/apple-logo-white.svg" width="10%" alt="Logo">
+                </div>
+                <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+                    <h1 class="mb-4" style="font-weight: bold;">Welcome!</h1>
+                    <form class="mb-5">
+                        <div class="mb-4">
+                            <label for="exampleInputEmail1" class="form-label" style="font-weight: bold;">Apple ID</label>
+                            <input type="email" class="form-control bg-dark border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your ID">
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleInputPassword1" class="form-label" style="font-weight: bold;">Password</label>
+                            <input type="password" class="form-control bg-dark border-0 white-text mb-2" id="exampleInputPassword1" placeholder="Password">
+                            <div id="Help" class="form-text"><a href="#" class="link-secondary text-decoration-none">¿Have you forgotten your password?</a></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Log In</button>
+                    </form>
+                    <p id="Or" class="text-center" style="font-weight: bold;">Or Login</p>
+                    <div class="d-flex justify-content-around">
+                        <button type="submit" class="btn btn-outline-light flex-grow-1 mx-2"><i class="bi bi-google lead mx-2"></i>Google</button>
+                        <button type="submit" class="btn btn-outline-light flex-grow-1 mx-2"><i class="bi bi-facebook lead mx-2"></i>Facebook</button>
+                    </div>
+                </div>
+                <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
+                    <p class="d-inline-block mb-0">¿You still do not have an account?</p><br><a class="text-light text-decoration-none" style="font-weight: bold;" href="#">Create one now</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
